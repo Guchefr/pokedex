@@ -1,6 +1,6 @@
 interface Pokemon {
   name: string;
-  imgSrc: string; 
+  imgSrc?: string; 
 }
 
 interface PokemonCardProps {
